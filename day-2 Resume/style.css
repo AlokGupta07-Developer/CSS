@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 40px;
+}
+
+.first {
+  height: 200px;
+  width: 100%;
+  background-color: rgb(4, 6, 62);
+  padding-top: 40px;
+}
+
+h1 {
+  color: white;
+  font-size: 50px;
+  text-transform: uppercase;
+}
+
+h3 {
+  color: white;
+  font-weight: 100;
+  margin-top: 10px;
+  font-style: italic;
+}
+
+.second {
+  background-color: rgb(248, 243, 243);
+  height: 200px;
+  width: 80%;
+}
+
+.second h2 {
+  text-transform: uppercase;
+  color: black;
+  padding: 10px;
+  padding-top: 40px;
+  font-size: 35px;
+}
+
+p {
+  padding: 15px;
+  font-size: 24px;
+}
+
+.third {
+  background-color: lightblue;
+  padding: 20px;
+  width: 80%;
+}
+
+.third h2 {
+  color: black;
+  text-transform: uppercase;
+  margin-top: 20px;
+  font-weight: 800;
+  font-size: 35px;
+}
+
+.child1,
+.child2 {
+  background-color: white;
+  margin: 15px auto;
+  font-size: 24px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+}
+
+.four {
+  width: 80%;
+  height: 370px;
+  background-color: rgb(235, 235, 152);
+}
+
+.child {
+  background-color: white;
+  margin: 15px auto;
+  font-size: 24px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  text-transform: uppercase;
+  height: 50px;
+}
+
+.four h1 {
+  color: black;
+  text-transform: uppercase;
+  font-size: 35px;
+  font-weight: 800;
+  margin-top: 30px;
+}
+
+.five {
+  width: 80%;
+  height: 370px;
+  background-color: rgb(204, 207, 255);
+}
+
+.five h1 {
+  color: black;
+  text-transform: uppercase;
+  font-size: 35px;
+  font-weight: 800;
+  margin: 30px;
+}
+
+.five .child {
+  margin: 15px auto;
+  font-size: 24px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  text-transform: uppercase;
+  height: 50px;
+}
+
+.six {
+  width: 80%;
+  height: 370px;
+  background-color: rgb(183, 223, 183);
+}
+
+.six h1 {
+  color: black;
+  text-transform: uppercase;
+  font-size: 35px;
+  font-weight: 800;
+  margin: 30px;
+}
+
+.six .child {
+  margin: 15px auto;
+  font-size: 24px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 50px;
+}
