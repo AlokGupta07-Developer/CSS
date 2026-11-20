@@ -1,0 +1,72 @@
+@font-face {
+  font-family: horrorBlood;
+  src: url(Blood\ Victim\ Zombie.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(52, 49, 49);
+  margin-left: 20px;
+  overflow: hidden;
+}
+
+#intro {
+  color: aqua;
+  font-size: 40px;
+}
+
+p {
+  color: yellowgreen;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+#clgName {
+  color: aqua;
+}
+
+#college {
+  color: yellowgreen;
+}
+
+#year {
+  color: violet;
+}
+
+nav {
+  font-size: 25px;
+  font-weight: 400;
+}
+
+nav,
+a {
+  color: yellow;
+  display: flex;
+  justify-content: space-around;
+  border: none;
+  gap: 20px;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#horror {
+  text-transform: uppercase;
+  font-family: horrorBlood;
+  background-color: black;
+  color: red;
+  font-size: 100px;
+  margin-top: 30px;
+  font-weight: 400;
+  padding: 5px 30px;
+}
