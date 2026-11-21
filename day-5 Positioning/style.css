@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  padding-top: 10px;
+}
+
+#box1 {
+  height: 200px;
+  width: 200px;
+  background-color: brown;
+  position: absolute;
+  left: 50%;
+}
+
+#box2 {
+  height: 300px;
+  width: 300px;
+  background-color: green;
+}
+
+#box3 {
+  height: 400px;
+  width: 400px;
+  background-color: orange;
+  position: absolute;
+  left: 50%;
+}
+
+#box4 {
+  height: 500px;
+  width: 500px;
+  background-color: rgb(192, 111, 111);
+}
+
+#subBox {
+  height: 50%;
+  width: 50%;
+  background-color: aqua;
+}
+
+#outerBox {
+  height: 600px;
+  width: 600px;
+  background-color: rgb(16, 102, 8);
+}
+
+#innerbox {
+  height: 75%;
+  width: 75%;
+  background-color: rgb(80, 99, 80);
+}
+
+#microbox {
+  height: 50%;
+  width: 50%;
+  background-color: rgb(183, 15, 15);
+}
+
+#actualbox {
+  height: 25%;
+  width: 25%;
+  background-color: rgb(64, 29, 190);
+}
+
+#screen {
+  width: 100%;
+  height: 3000px;
+  background-color: black;
+}
+
+#bar {
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  right: 0%;
+  top: 50%;
+  position: fixed;
+}
+
+#parent {
+  width: 100%;
+}
+
+#child {
+  width: 100%;
+  height: 2000px;
+  background-color: #333;
+  color: white;
+}
+
+#sticky {
+  width: 200px;
+  height: 300px;
+  background-color: red;
+}
+#child2 {
+  width: 100%;
+  height: 2000px;
+  background-color: #666;
+}
